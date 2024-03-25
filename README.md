@@ -1,5 +1,5 @@
 # Radioclub-Bot
-telegram bot on aiogram 3.4.1 using sentence embedding for finding most similar sentence by vector and VGG-19 for image style transfer
+telegram bot on aiogram 3.4.1 using sentence embedding (sentence-transformers/LaBSE) for finding most similar sentence by vector and VGG-19 for image style transfer
 
 Functions:
 
