@@ -1,4 +1,6 @@
 # Radioclub-Bot
+running on amvera.ru
+
 telegram bot on aiogram 3.4.1 using sentence embedding (sentence-transformers/LaBSE) for finding most similar sentence by vector and VGG-19 for image style transfer
 
 Functions:
