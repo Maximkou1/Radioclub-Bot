@@ -2,22 +2,20 @@ from sentence_transformers import SentenceTransformer, util
 import pandas as pd
 import numpy as np
 
-# line = input('enter anything ')
+# line = input('enter anything')
 # line_embedding = model.encode(line)
 # line_embedding = np.float64(line_embedding) # приводим в одинаковый формат
 
-"""
-с русским совсем плохо
-model = SentenceTransformer('cointegrated/rubert-tiny2')
-line = input('enter anything ')
-line_embedding = model.encode(line)
-line_embedding = np.float64(line_embedding) # приводим в одинаковый формат
-line_embedding = np.resize(line_embedding, 384)
-line_embedding = np.reshape(line_embedding, 384)
-print(line_embedding)
-"""
+# model = SentenceTransformer('cointegrated/rubert-tiny2')
+# line = input('enter anything ')
+# line_embedding = model.encode(line)
+# line_embedding = np.float64(line_embedding) # приводим в одинаковый формат
+# line_embedding = np.resize(line_embedding, 384)
+# line_embedding = np.reshape(line_embedding, 384)
+# print(line_embedding)
 
 # model = SentenceTransformer("all-MiniLM-L6-v2")
+
 model = SentenceTransformer('sentence-transformers/LaBSE')
 df = pd.read_csv('lyrics_with_vectors.csv')
 sentences = df['Lyrics'].tolist()
