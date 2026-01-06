@@ -12,12 +12,9 @@ telegram bot on aiogram 3.4.1 using sentence embedding (sentence-transformers/La
 
 ## Project structure:
 
-* radioclub_form.py — main file with bot code, initializing test.py and similar_line.py
-* test.py — file with code for style trasferring
+* main.py — main file with bot code, initializing test.py and similar_line.py
+* style_transfer.py — file with code for style trasferring
 * similar_line.py — file with code reading vectors from df, function find_similar  finds vector of the user's message and then get the line with most similar vector
 * lyrics_with_vectors.csv — dataset of lyrics with vectors
-* messages.txt — text file for saving messages
 * directory covers/ — dataset of nine photos for style transferring
-* test.jpg — last saved photo
-* result.jpg — last photo with transferred style
 * requirements.txt — modules and packages needed for correct work
